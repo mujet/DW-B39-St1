@@ -1,7 +1,11 @@
 body {
     background-color: rgb(220,224,228);
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-weight: 800;
 }
 
 nav {
@@ -12,7 +16,7 @@ nav {
 
 .nav-left {
     display: flex;
-    padding-left: 120px;
+    padding-left: 10%;
     align-items: center;
     flex: 50%;
 }
@@ -36,7 +40,7 @@ nav {
     flex: 50%;
     align-items: center;
     justify-content:flex-end;
-    padding-right: 120px;
+    padding-right: 10%;
 }
 
 .nav-right a {
@@ -44,12 +48,11 @@ nav {
     color:rgb(244,243,243);
     padding: 7px 20px;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .container {
-    background-color: aqua;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -57,28 +60,92 @@ nav {
 }
 
 section {
-    background-color: violet;
+    background-color: white;
+    color: rgb(17,23,39);
+    box-shadow: 0px 0px 25px rgb(190, 190, 190);
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
     display: flex;
     width: 80%;
 }
 
 .section-left {
-    flex: 30%;
+    flex: 65%;
+    padding: 40px 10px 0px 50px;
+    text-align: justify;
+}
+
+.section-left div {
+    margin-bottom: 40px;
+}
+
+.contact-cv button{
+    background-color: rgb(17,23,39);
+    color:rgb(244,243,243);
+    padding: 6px 24px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.contact-cv button a {
+    text-decoration: none;
+    color:rgb(244,243,243);
+}
+
+.contact-cv a {
+    text-decoration: none;
+    color: rgb(17,23,39);
+}
+
+.logo-sosmed a {
+    color: rgb(17,23,39);
+    padding: 3px;
+    font-size: 30px;
 }
 
 .section-right {
-    background-color: red;
-    flex: 70%;
-    padding: 1%;
+    display: flex;
+    flex: 35%;
+    padding: auto 50px auto 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact-header {
+.profile-card {
+    background-color: white;
     color: rgb(17,23,39);
-    margin-top: 30px;
+    box-shadow: 0px 0px 25px rgb(190, 190, 190);
+    width: 80%;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.profile-card img {
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-bottom: 5px;
+}
+
+.profile-card h2, p {
+    margin: 1px 0px;
+}
+
+
+.content-header {
+    color: rgb(17,23,39);
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -88,22 +155,23 @@ form {
 }
 
 form div {
-    margin-bottom: 33px;
+    margin-bottom: 35px;
 }
 
 form label {
     color: rgb(17,23,39);
-    font-weight: bold;
+    font-weight: 500;
     font-size: 24px;
 }
 
 form input, select, textarea {
     background-color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     width: 100%;
     padding: 20px;
-    box-shadow: 0px 0px 15px rgb(190, 190, 190)
+    margin-top: 5px;
+    box-shadow: 0px 7px 25px rgb(190, 190, 190)
 }
 
 form .button {
@@ -115,8 +183,8 @@ form .button {
 form .button a {
     background-color: rgb(17,23,39);
     color:rgb(244,243,243);
-    padding: 7px 24px;
-    font-weight: bold;
+    padding: 5px 30px;
+    font-weight: 500;
     text-decoration: none;
     border-radius: 20px;
     cursor: pointer;
