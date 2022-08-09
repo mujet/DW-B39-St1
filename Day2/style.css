@@ -1,16 +1,18 @@
 body {
+    background-color: rgb(220,224,228);
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    background-color: lightgray;
+    background-color: rgb(244,243,243);
     display: flex;
-    height: 7vh;
+    height: 9vh;
 }
 
 .nav-left {
     display: flex;
-    padding-left: 10%;
+    padding-left: 120px;
     align-items: center;
     flex: 50%;
 }
@@ -24,7 +26,7 @@ nav {
 }
 
 .nav-left ul li a {
-    color: black;
+    color: rgb(17,23,39);
     text-decoration: none;
     padding: 8px 17px;
 }
@@ -34,15 +36,15 @@ nav {
     flex: 50%;
     align-items: center;
     justify-content:flex-end;
-    padding-right: 10%;
+    padding-right: 120px;
 }
 
 .nav-right a {
-    background-color: orangered;
-    color: white;
-    padding: 8px 17px;
+    background-color: rgb(17,23,39);
+    color:rgb(244,243,243);
+    padding: 7px 20px;
     text-decoration: none;
-    border-radius: 7px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -53,7 +55,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
-s
+
 section {
     background-color: violet;
     display: flex;
@@ -68,4 +70,54 @@ section {
     background-color: red;
     flex: 70%;
     padding: 1%;
+}
+
+.contact-header {
+    color: rgb(17,23,39);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+form {
+    margin: 0px auto;
+    width: 600px;
+}
+
+form div {
+    margin-bottom: 33px;
+}
+
+form label {
+    color: rgb(17,23,39);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+form input, select, textarea {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgb(190, 190, 190)
+}
+
+form .button {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+form .button a {
+    background-color: rgb(17,23,39);
+    color:rgb(244,243,243);
+    padding: 7px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
 }

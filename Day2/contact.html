@@ -1,46 +1,70 @@
 <html>
 
     <head>
-        <title>Day 2 - Contact</title>
-        <link rel="stylesheet" href="contact.css">
+        <title>Personal Web | Contact</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <nav>
+            <div class="nav-left">
+                <img src="assets/logo.png" alt="Logo" style="width: 45px;">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">My Project</a>
+                    </li>
+                </ul>
+            </div>
         
+            <div class="nav-right">
+                <a href="contact.html" target="_blank">Contact Me</a>
+            </div>
+        </nav>
+    
+        <div class="contact-header">
+            <p>GET IN TOUCH</p>
+        </div>
+    
         <form action="">
+            
+            <div>
+                <label for="input-name">Name</label><br>
+                <input type="text" name="" id="input-name">
+            </div>
+            
+            <div>
+                <label for="input-email">Email</label><br>
+                <input type="email" name="" id="input-email">
+            </div>
+            
+            <div>
+                <label for="input-phone">Phone Number</label><br>
+                <input type="number" name="" id="input-phone">
+            </div>
 
             <div>
-                <label for="input-name">Your Name:</label>
-                <input type="text" name="" id="input-name" placeholder="John Doe">
-            </div>
-            
-            <div>
-                <label for="input-email">Your Email:</label>
-                <input type="email" name="" id="input-email" placeholder="myemail@mailing.com">
-            </div>
-            
-            <div>
-                <label for="input-phone">Your Phone Number:</label>
-                <input type="number" name="" id="input-phone" placeholder="+62xxxxxxxxxxx">
-            </div>            
-            
-            <div>
-                <label for="input-subject">Subject:</label>
+                <label for="input-subject">Subject</label><br>
                 <select name="" id="input-subject">
-                    <option value="">Select</option>
-                    <option value="">Frontend</option>
-                    <option value="">Backend</option>
-                    <option value="">Fullstack</option>
+                    <option value=""></option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="Fullstack">Fullstack</option>
                 </select>
             </div>
 
             <div>
-                <label for="input-comment">Your Message:</label>
-                <textarea name="" id="input-comment" cols="21" rows="8" style="resize:none ;" placeholder="Enter your message here"></textarea>                
+                <label for="input-message">Your Message</label><br>
+                <textarea name="" id="input-message cols="10" rows="6" style="resize: none;"></textarea>
             </div>
 
-            <button>submit</button>
-            
+            <div class="button">
+                <a href="#">submit</a>
+            </div>
+
         </form>
 
     </body>
