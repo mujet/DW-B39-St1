@@ -1,81 +1,83 @@
 <html>
 
-    <head>
-        <title>Personal Web | Contact</title>
-        <link rel="icon" type="image/x-icon" href="https://dumbways.id/assets/images/brandwhite.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <title>Personal Web | Contact</title>
+    <link rel="icon" type="image/x-icon" href="https://dumbways.id/assets/images/brandwhite.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 
-    <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
 
-        <nav>
-            <div class="nav-left">
-                <img src="assets/logo.png" alt="Logo" style="width: 50px;">
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#">My Project</a>
-                    </li>
-                </ul>
-            </div>
-        
-            <div class="nav-right">
-                <a href="contact.html" >Contact Me</a>
-            </div>
-        </nav>
-    
-        <div class="content-header">
-            <h2>GET IN TOUCH</h2>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="assets/logo.png" alt="Logo" style="width: 50px;">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="project.html">My Project</a>
+                </li>
+            </ul>
         </div>
-    
-        <form action="">
-            
-            <div>
-                <label for="input-name">Name</label><br>
-                <input type="text" name="" id="input-name">
-            </div>
-            
-            <div>
-                <label for="input-email">Email</label><br>
-                <input type="email" name="" id="input-email">
-            </div>
-            
-            <div>
-                <label for="input-phone">Phone Number</label><br>
-                <input type="number" name="" id="input-phone">
-            </div>
 
-            <div>
-                <label for="input-subject">Subject</label><br>
-                <select name="" id="input-subject">
-                    <option value=""></option>
-                    <option value="Frontend">Frontend</option>
-                    <option value="Backend">Backend</option>
-                    <option value="Fullstack">Fullstack</option>
-                </select>
-            </div>
+        <div class="nav-right">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
 
-            <div>
-                <label for="input-message">Your Message</label><br>
-                <textarea name="" id="input-message" cols="10" rows="10" style="resize: none;"></textarea>
-            </div>
+    <div class="web-header">
+        <h2>GET IN TOUCH</h2>
+    </div>
 
-            <div class="button">
-                <a href="#" onclick="submitData()">submit</a>
-            </div>
+    <form action="">
 
-        </form>
+        <div>
+            <label for="input-name">Name</label><br>
+            <input type="text" name="" id="input-name">
+        </div>
 
-    </body>
-    
-    <script src="form.js"></script>
+        <div>
+            <label for="input-email">Email</label><br>
+            <input type="email" name="" id="input-email">
+        </div>
+
+        <div>
+            <label for="input-phone">Phone Number</label><br>
+            <input type="number" name="" id="input-phone">
+        </div>
+
+        <div>
+            <label for="input-subject">Subject</label><br>
+            <select name="" id="input-subject">
+                <option value=""></option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="Fullstack">Fullstack</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="input-message">Your Message</label><br>
+            <textarea name="" id="input-message" cols="10" rows="10" style="resize: none;"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="button" onclick="submitData()">submit</button>
+        </div>
+
+    </form>
+
+</body>
+
+<script src="form.js"></script>
 
 </html>

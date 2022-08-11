@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(220,224,228);
+    background-color: rgb(220, 224, 228);
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -9,14 +9,14 @@ h2 {
 }
 
 nav {
-    background-color: rgb(244,243,243);
+    background-color: rgb(244, 243, 243);
     display: flex;
     height: 9vh;
 }
 
 .nav-left {
     display: flex;
-    padding-left: 10%;
+    padding-left: 5%;
     align-items: center;
     flex: 50%;
 }
@@ -30,7 +30,7 @@ nav {
 }
 
 .nav-left ul li a {
-    color: rgb(17,23,39);
+    color: rgb(17, 23, 39);
     text-decoration: none;
     padding: 8px 17px;
 }
@@ -39,13 +39,13 @@ nav {
     display: flex;
     flex: 50%;
     align-items: center;
-    justify-content:flex-end;
-    padding-right: 10%;
+    justify-content: flex-end;
+    padding-right: 5%;
 }
 
 .nav-right a {
-    background-color: rgb(17,23,39);
-    color:rgb(244,243,243);
+    background-color: rgb(17, 23, 39);
+    color: rgb(244, 243, 243);
     padding: 4px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -53,7 +53,7 @@ nav {
 }
 
 .container {
-    height: 90vh;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +61,7 @@ nav {
 
 section {
     background-color: white;
-    color: rgb(17,23,39);
+    color: rgb(17, 23, 39);
     box-shadow: 0px 0px 25px rgb(190, 190, 190);
     border: none;
     border-radius: 7px;
@@ -80,9 +80,9 @@ section {
     margin-bottom: 40px;
 }
 
-.contact-cv button{
-    background-color: rgb(17,23,39);
-    color:rgb(244,243,243);
+.contact-cv button {
+    background-color: rgb(17, 23, 39);
+    color: rgb(244, 243, 243);
     padding: 6px 24px;
     border: none;
     border-radius: 20px;
@@ -94,16 +94,16 @@ section {
 
 .contact-cv button a {
     text-decoration: none;
-    color:rgb(244,243,243);
+    color: rgb(244, 243, 243);
 }
 
 .contact-cv a {
     text-decoration: none;
-    color: rgb(17,23,39);
+    color: rgb(17, 23, 39);
 }
 
 .logo-sosmed a {
-    color: rgb(17,23,39);
+    color: rgb(17, 23, 39);
     padding: 3px;
     font-size: 30px;
 }
@@ -118,7 +118,7 @@ section {
 
 .profile-card {
     background-color: white;
-    color: rgb(17,23,39);
+    color: rgb(17, 23, 39);
     box-shadow: 0px 0px 25px rgb(190, 190, 190);
     width: 80%;
     padding-bottom: 5px;
@@ -134,19 +134,21 @@ section {
     margin-bottom: 5px;
 }
 
-.profile-card h2, p {
+.profile-card h2,
+p {
     margin: 1px 0px;
 }
 
 
-.content-header {
-    color: rgb(17,23,39);
-    margin-top: 15px;
+.web-header {
+    color: rgb(17, 23, 39);
+    padding-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     font-weight: bolder;
+    margin-bottom: 20px;
 }
 
 form {
@@ -159,12 +161,14 @@ form div {
 }
 
 form label {
-    color: rgb(17,23,39);
+    color: rgb(17, 23, 39);
     font-weight: 500;
     font-size: 24px;
 }
 
-form input, select, textarea {
+form input,
+select,
+textarea {
     background-color: white;
     border: none;
     border-radius: 7px;
@@ -177,15 +181,162 @@ form input, select, textarea {
 form .button {
     display: flex;
     align-items: center;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
-form .button a {
-    background-color: rgb(17,23,39);
-    color:rgb(244,243,243);
-    padding: 5px 30px;
-    font-weight: 500;
-    text-decoration: none;
+form button {
+    background-color: rgb(17, 23, 39);
+    color: rgb(244, 243, 243);
+    padding: 6px 27px;
+    border: none;
     border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     cursor: pointer;
+}
+
+.project-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-date div {
+    width: 49%;
+    margin-bottom: 0px;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.project-tech div {
+    width: 50%;
+    margin: 25px 0px 0px 0px;
+}
+
+
+.project-tech input{
+    width: auto;
+    transform: scale(2);
+    margin-right: 20px;
+}
+
+.contents{
+    background-color: white;
+    color: rgb(17, 23, 39);
+}
+
+.projects {
+    display: flex;
+    margin: 0px 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-card {
+    background-color: white;
+    color: rgb(17, 23, 39);
+    box-shadow: 0px 0px 25px rgb(190, 190, 190);
+    border: none;
+    border-radius: 7px;
+    width: 27%;
+    padding: 1.5%;
+    margin: 2% 0px;
+}
+
+.content-image img {
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.content-title {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.content-date {
+    margin: 0px;
+    color: gray;
+    font-size: 14px;
+}
+
+.content-text {
+    margin: 20px 0px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.content-tech a {
+    font-size: 25px;
+    color: rgb(17, 23, 39);
+}
+
+.content-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-button button {
+    background-color: rgb(17, 23, 39);
+    color: rgb(244, 243, 243);
+    padding: 1px 24px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0px;
+    width: 49%;
+}
+
+.detail-project {
+    color: rgb(17, 23, 39);
+    display: flex;
+    margin: 0px 5%;
+    align-content: center;
+}
+
+.detail-project h2 {
+    font-weight: 500;
+    margin: 10px 0px 0px 0px;
+}
+
+.detail-project p {
+    color: gray;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.detail-project i {
+    margin-right: 15px;
+    font-size: 28px;
+}
+
+.detail-duration {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.detail-tech {
+    display: flex;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.detail-tech div {
+    display: flex;
+    margin: 0px 30px 20px 0px;
+}
+
+.detail-image img {
+    width: 90%;
+}
+
+.detail-teks {
+    margin: 40px 5%;
+    text-align: justify;
+    color: rgb(17, 23, 39);
 }
