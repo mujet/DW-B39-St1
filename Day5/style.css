@@ -2,6 +2,7 @@ body {
     background-color: rgb(220, 224, 228);
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
 }
 
 h2 {
@@ -253,28 +254,34 @@ form button {
 }
 
 .content-title {
+    width: 100%;
     margin: 0px;
     font-size: 20px;
+    
 }
 
 .content-date {
+    width: 100%;
     margin: 0px;
     color: gray;
     font-size: 14px;
 }
 
 .content-text {
+    width: 100%;
     margin: 20px 0px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .content-tech {
+    width: 100%;
     font-size: 25px;
     color: rgb(17, 23, 39);
 }
 
 .content-button {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
