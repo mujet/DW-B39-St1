@@ -286,9 +286,13 @@ form button {
 
 .content-title {
     width: 100%;
-    margin: 0px;
+    margin: 0px;   
+}
+
+.content-title a {
+    color: rgb(17, 23, 39);
     font-size: 20px;
-    
+    text-decoration: none;
 }
 
 .content-date {

@@ -102,7 +102,7 @@ function updateProject() {
                 </div>
 
                 <div class="content-title">
-                    <p>${dataProject[index].name}</p>
+                    <a href="project-detail.html" target="blank"><p>${dataProject[index].name}</p></a>
                 </div>
 
                 <div class="content-date">
