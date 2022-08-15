@@ -212,6 +212,33 @@ form button {
     margin: 0px;
 }
 
+.upImageBox {
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    margin-top: 5px;
+    box-shadow: 0px 7px 25px rgb(190, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.upImageBox p {
+    background-color: rgb(220, 224, 228);
+    color: gray;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 7px;
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+.upImageBox img {
+    margin-right: 10px;
+    height: 24px;
+}
+
 .project-tech div {
     width: 50%;
     margin: 25px 0px 0px 0px;
@@ -222,6 +249,10 @@ form button {
     width: auto;
     transform: scale(2);
     margin-right: 20px;
+}
+
+.project-tech label {
+    color: gray;
 }
 
 .contents{
