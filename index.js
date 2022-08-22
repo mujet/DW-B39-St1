@@ -28,13 +28,8 @@ app.post('/add-project', function (request, response) {
     response.redirect('add-project')
 })
 
-app.get('/project/:id', function (request, response) {
-    let id = request.params.id
-    console.log(id)
-    response.render('project-detail',{
-        id,
-        title: 'This is title'
-    })
+app.get('/project-detail', function (request, response) {
+    response.render('project-detail')
 })
 
 app.listen(port, function () {
