@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(220,224,228);
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-bluewhite {
+    background-color: rgb(220,224,228);
+}
+
+.bg-blueblack {
+    background-color: rgb(17,23,39);
+}
+
+form label {
+    font-weight: 500;
+}
+
+.form-control {
+    resize: none;
+}
+
+.container-form {
+    width: 400px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.width-49 {
+    width: 49%;
+}
