@@ -50,16 +50,16 @@
             <form action="/edit-project/{{index}}" method="post">
                 <div class="mb-3">
                     <label for="inputProject" class="form-label mb-0 fs-5">Project Name</label>
-                    <input type="text" class="form-control shadow" id="inputProject" name="inputProject" value="{{detailProject.title}}">
+                    <input type="text" class="form-control shadow" id="inputProject" name="inputProject" value="{{detailProject.name}}">
                 </div>
                 <div class="mb-3 d-flex justify-content-between">
                     <div class="mb-3 width-49">
                         <label for="inputStartDate" class="form-label mb-0 fs-5">Start Date</label>
-                        <input type="date" class="form-control shadow" id="inputStartDate" name="inputStartDate" value="{{detailProject.start}}">
+                        <input type="date" class="form-control shadow" id="inputStartDate" name="inputStartDate" value="{{detailProject.start_date}}">
                     </div>
                     <div class="mb-3 width-49">
                         <label for="inputEndDate" class="form-label mb-0 fs-5">End Date</label>
-                        <input type="date" class="form-control shadow" id="inputEndDate" name="inputEndDate" value="{{detailProject.end}}">
+                        <input type="date" class="form-control shadow" id="inputEndDate" name="inputEndDate" value="{{detailProject.end_date}}">
                     </div>
                 </div>
                 <div class="mb-3">

@@ -41,15 +41,15 @@ app.post('/add-project', function (request, response) {
 
             let data = result.rows
 
-            let project = data.map(function (item) {
+            dataProject = data.map(function (item) {
                 return {
                     ...item,
                     duration: getTime(item.start_date, item.end_date)
                 }
             })
-            console.log(project);
+            console.log(dataProject);
             response.render('index', {
-                dataProject: project
+                dataProject
             })
         })
     })
